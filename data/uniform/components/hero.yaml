@@ -1,0 +1,25 @@
+id: hero
+name: Hero
+icon: format-heading
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+  - id: image
+    name: Image
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2023-03-08T08:21:08.199506+00:00'
+updated: '2023-03-08T08:29:00.604015+00:00'

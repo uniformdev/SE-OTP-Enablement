@@ -1,0 +1,81 @@
+composition:
+  _name: Home
+  _id: 66fc6fb3-194e-415b-9d08-4c116f04f835
+  _slug: /
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      value: This is my page title
+    pageDescription:
+      type: text
+      value: This is my meta description
+  slots:
+    body:
+      - _id: 2765f3a0-6cb0-488a-b8ad-bebf5da0412e
+        type: heroContentful
+        parameters:
+          entry:
+            type: contentfulEntry
+            value:
+              source: default
+              entryId: 20rdhASdYgbnPNXgR3XcEP
+      - _id: fbb56e55-6130-464d-8aac-fc90be99e18f
+        type: talkList
+        slots:
+          talks:
+            - _id: 7b7015b8-66e6-413c-965d-b0ec4cb37b01
+              type: talk
+              parameters:
+                title:
+                  type: text
+                  value: Personalisation for Developers
+                audience:
+                  type: select
+                  value: Developers
+                description:
+                  type: text
+                  value: >-
+                    Developers should know the basics of personalization and how
+                    to do it the Jamstack way.
+            - _id: bad6aea0-8900-4bba-a968-9f01424e8d78
+              type: talk
+              parameters:
+                title:
+                  type: text
+                  value: Personalisation and Jamstack
+                audience:
+                  type: select
+                  value: Marketers
+                description:
+                  type: text
+                  value: >-
+                    Marketers can learn about the challenges of running
+                    personalization on a Jamstack site and how to address them.
+            - _id: dd13375c-805d-45e4-91cf-37097af75f9d
+              type: talk
+              parameters:
+                title:
+                  type: text
+                  value: Jamstack 101
+                audience:
+                  type: select
+                  value: Developers
+                description:
+                  type: text
+                  value: >-
+                    Learn what Jamstack is in this introductory course for both
+                    developers and marketers.
+        parameters:
+          title:
+            type: text
+            value: Our Talks
+    footer:
+      - _id: a3595b8e-5739-4832-9a15-b3f0eceaeb28
+        type: footer
+    header:
+      - _id: 5a4b891b-f47c-4ba3-a3c1-686b0fe32107
+        type: header
+created: '2023-03-08T08:20:11.236104+00:00'
+modified: '2023-03-08T09:16:31.136669+00:00'
+pattern: false
